@@ -39,10 +39,10 @@ public class MainController {
 		return ResponseEntity.ok(statement);
 	}
 	
-	@GetMapping(value = {"/people"})
-	public ResponseEntity<List<Person>> getAllPeople(){
-		List<Person> people = service.getAllPeople();
-		return ResponseEntity.ok(people);
-	}
+	/*
+	 * @GetMapping(value = {"/people"}) public ResponseEntity<List<Person>>
+	 * getAllPeople(){ List<Person> people = service.getAllPeople(); return
+	 * ResponseEntity.ok(people); }
+	 */
 
 }
